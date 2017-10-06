@@ -100,21 +100,9 @@ return [
     */
 
     'custom' => [
-        'title' => [
-            'required' => 'A cím megadása kötelező',
-            'min'      => 'A cím minimum :min karakter legyen',
-            'max'      => 'A cím legtöbb :max karakter legyen'
+        'attribute-name' => [
+            'rule-name' => 'custom-message',
         ],
-        'category_id' => [
-            'required' => 'Válasszon kategóriát',
-            'min' => 'Válasszon kategóriát',
-            'max' => 'Válasszon kategóriát',
-            'integer' => 'Válasszon kategóriát',
-        ],
-        'content' => [
-            'required' => 'Az tartalom megadása kötelező',
-            'min' => 'A tartalom minimum :min karakter legyen',
-        ]
     ],
 
     /*

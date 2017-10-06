@@ -1,37 +1,9 @@
 
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-@import "_variables";
-@import "header";
-@import "landing";
-@import "article/view-article";
+// Variables
+@import "variables";
 
-
-body {
-	background-color: #edeef0;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.container {
-	max-width: 1000px !important;
-}
-
-.clearfix {
-	clear: both;
-    content: "";
-    display: block;
-}
-
-.oszto {
-	background-color: #e6e6e6;
-	height: 3px;
-	.belso-oszto {
-		height: 3px;
-		width: 30px;
-		background-color: #adadad;
-	}
-}
-
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";

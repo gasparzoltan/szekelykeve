@@ -9,30 +9,21 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
     protected $fillable = [
-        'firstname', 'lastname', 'email', 'gender', 'password',
+        'name', 'email', 'password',
     ];
 
-
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
     protected $hidden = [
         'password', 'remember_token',
     ];
-
-    public function roles()
-    {
-        return $this->belongsToMany('App\Role');
-    }
-
-    public function fullname()
-    {
-        return $this->firstname . ' ' . $this->lastname;
-    }
-
-    public function isAdmin() {
-        $roles = $this->roles;
-        if(count($roles) > 0) {
-            return true;
-        }
-        return false;
-    }
 }

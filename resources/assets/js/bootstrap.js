@@ -10,9 +10,8 @@ window._ = require('lodash');
 try {
     window.$ = window.jQuery = require('jquery');
 
-    //require('bootstrap-sass');
+    require('bootstrap-sass');
 } catch (e) {}
-
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
@@ -52,5 +51,3 @@ if (token) {
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'
 // });
-
-require("../semantic/dist/semantic");
