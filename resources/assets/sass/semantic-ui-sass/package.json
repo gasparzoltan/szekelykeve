@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "semantic-ui-sass",
+        "scope": null,
+        "escapedName": "semantic-ui-sass",
+        "name": "semantic-ui-sass",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/gaspar/Desktop/untitled folder"
+    ]
+  ],
+  "_from": "semantic-ui-sass@latest",
+  "_id": "semantic-ui-sass@2.2.11",
+  "_inCache": true,
+  "_location": "/semantic-ui-sass",
+  "_nodeVersion": "8.2.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/semantic-ui-sass-2.2.11.tgz_1500830781621_0.9647759576328099"
+  },
+  "_npmUser": {
+    "name": "joshmanders",
+    "email": "josh@joshmanders.com"
+  },
+  "_npmVersion": "5.0.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "semantic-ui-sass",
+    "scope": null,
+    "escapedName": "semantic-ui-sass",
+    "name": "semantic-ui-sass",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/semantic-ui-sass/-/semantic-ui-sass-2.2.11.tgz",
+  "_shasum": "f77677cfc6ebe874f0da29e2787b64facccd1f4b",
+  "_shrinkwrap": null,
+  "_spec": "semantic-ui-sass",
+  "_where": "/home/gaspar/Desktop/untitled folder",
+  "author": {
+    "name": "NiftyCo",
+    "email": "support@anifty.co",
+    "url": "https://anifty.co"
+  },
+  "bugs": {
+    "url": "https://github.com/aniftyco/semantic-ui-sass/issues"
+  },
+  "contributors": [
+    {
+      "name": "Josh Manders",
+      "url": "https://twitter.com/joshmanders"
+    }
+  ],
+  "dependencies": {},
+  "description": "Semantic UI, converted to Sass",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-register": "^6.24.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-git": "^2.4.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^1.2.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-HCROD3MYXc6ljpudCRJP9mcCwMF35HMV5+xCwS6fktl671FUl7pEW9JPEf4oAR2rGmbyz1JBqsEEbkruuzWx6g==",
+    "shasum": "f77677cfc6ebe874f0da29e2787b64facccd1f4b",
+    "tarball": "https://registry.npmjs.org/semantic-ui-sass/-/semantic-ui-sass-2.2.11.tgz"
+  },
+  "gitHead": "13c499e1b0e200cf6bc6ca40729c440e8d255046",
+  "homepage": "http://www.semantic-ui.com",
+  "license": "MIT",
+  "main": "semantic-ui.js",
+  "maintainers": [
+    {
+      "name": "joshmanders",
+      "email": "josh@joshmanders.com"
+    },
+    {
+      "name": "niftybot",
+      "email": "support@anifty.co"
+    }
+  ],
+  "name": "semantic-ui-sass",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniftyco/semantic-ui-sass.git"
+  },
+  "sass": "semantic-ui.scss",
+  "scripts": {
+    "build": "gulp build",
+    "release": "gulp release",
+    "test": "gulp test"
+  },
+  "style": "semantic-ui.scss",
+  "version": "2.2.11"
+}

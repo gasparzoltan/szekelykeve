@@ -1,0 +1,122 @@
+.wrap-read-article {
+	.tartalom {
+		max-width: 1000px;
+		margin: 0 auto;	
+		padding: 15px;	
+		display: flex;
+		@media  (max-width: 760px) {
+			flex-direction: column;
+			padding: 15px 0;
+		}
+
+		.kenyerszelet {
+			padding-top: 15px;
+
+			@media  (max-width: 760px) {
+				display: none;
+			}
+		}
+
+		.cikk {
+			flex: 1;
+			background-color: #fff;
+			padding: 0 15px;
+			border-radius: 2px;			
+			box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+
+			.cim {			
+				font-size: 40px;
+				color: #505050;
+				font-family: 'Open Sans', sans-serif;
+				@media  (max-width: 769px) {
+					font-size: 26px;
+				}
+
+			}	
+
+			.datum {
+				font-size: 11px;
+				color: #a9a7a7;
+			}
+
+			.kiemelt-kep {
+				margin: 15px 0;
+
+				img {
+					display: block;
+					width: 100%;
+				}
+			}
+
+			.tartalom-resz {
+				margin: 20px 0;
+				font-family: 'Open Sans', sans-serif;
+				line-height: 22px;
+				letter-spacing: 0.5px;
+
+
+				img {
+					margin: 15px !important;
+					@media (max-width: 760px) {
+						display: block !important;
+						float: none !important;	
+						margin: 15px auto;
+					}					
+				}
+				
+
+			}	
+		}
+
+		.cikk-lista {
+			min-width: 220px;
+			max-width: 220px;
+			padding: 20px;
+			@media  (max-width: 760px) {
+				max-width: 100%;
+			}
+
+			.fejlec {
+				text-transform: uppercase;
+				color: #676767;
+				letter-spacing: 0.5px;				
+				padding-bottom: 2px;
+				text-shadow: 0 1px 0 #f1f1f1;
+			}	
+
+			.latests {
+				margin-top: 15px;
+
+				.friss-cikk {
+					display: flex;
+					flex-direction: column;
+
+					.kep {
+						min-width: 55px;
+						flex: 1;						
+						img {
+							min-width: 35px;
+							width: 100%;
+							display: inline-block;
+						}					
+					}
+					.szoveg {
+						
+						.cim, .cim a {
+							text-transform: uppercase;
+							color: #666;
+							@media  (max-width: 760px) {
+								font-size: 18px;
+								margin-top: 5px;
+							}
+						}
+
+						.bovebben, .bovebben a {
+							font-size: 8px;
+						}
+					}					
+				}
+			}		
+		}
+	}
+}

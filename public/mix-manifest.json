@@ -1,0 +1,8 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/dashboard/assets/css/dashboard.css": "/dashboard/assets/css/dashboard.css",
+    "/css/app.css": "/css/app.css",
+    "/dashboard/assets/js/edit-article.js": "/dashboard/assets/js/edit-article.js",
+    "/dashboard/assets/js/create-article.js": "/dashboard/assets/js/create-article.js",
+    "/dashboard/assets/js/articles-list.js": "/dashboard/assets/js/articles-list.js"
+}
