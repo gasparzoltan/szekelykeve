@@ -4,10 +4,6 @@
 		<div class="nav-content">
 			<a href="{{route('landing')}}" class="link">
 				<span><i class="fa fa-home"></i> Kezdőlap</span>
-			</a>
-
-			<a href="#" class="link">
-				<span href="#">Hírek</span>
 			</a>	
 
 			<a href="#" class="link">

@@ -56,7 +56,7 @@
   border-style: solid;
   border-width: 1px 0;
   border-color: #ddd;
-  background-color: #b22222;
+  background-color: #145688;
 }
 
 @media (max-width: 660px) {
@@ -94,7 +94,7 @@
 .wrap-header .wrap-header-nav .nav-content .link:active,
 .wrap-header .wrap-header-nav .nav-content .autentikacio .link:hover,
 .wrap-header .wrap-header-nav .nav-content .autentikacio .link:active {
-  background-color: #a8061d;
+  background-color: #0b3758;
 }
 
 .wrap-header .wrap-header-nav .nav-content .link .belepes,
@@ -408,7 +408,7 @@
 }
 
 .wrap-landing-page .tartalom .main-bar .aktualis-cikkek .cikk .szoveg .bovebben a {
-  color: #b22222;
+  color: #145688;
 }
 
 @media (max-width: 660px) {
